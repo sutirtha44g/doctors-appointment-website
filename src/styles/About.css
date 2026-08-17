@@ -1,0 +1,149 @@
+.about{
+    background-color:F8FCFC;
+    padding: 60px 8%;
+
+}
+.about-title{
+    text-align: center;
+    margin-bottom: 20px;
+    color:#0D5C73;
+    font-size: 25px;
+
+}
+.about-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap:60px;
+    flex-wrap: wrap;
+}
+.about-line{
+
+    width:80px;
+
+    height:4px;
+
+    background:#2EB8B0;
+
+    margin:0 auto 20px;
+
+    border-radius:10px;
+}
+
+.about-left img{
+    width:350px;
+    height:400px;
+    margin-left: 50px;
+    object-fit:cover;
+    box-shadow:0 15px 40px rgba(13,92,115,0.12);
+    
+}
+.about-right{
+    flex: 1;
+    margin-right: 250px;
+}
+.about-right p{
+    color:#2D3748;
+    line-height: 20px;
+    margin-bottom: 15px;
+    font-size: 15px;
+}
+
+.about-right h3{
+    color:#0D5C73;
+    margin-bottom: 20px;
+
+}
+
+.vision-title{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:20px;
+
+    margin-top:30px;
+}
+
+.vision-title h3{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:20px;
+
+    margin-top:30px;
+}
+.vision-icon{
+
+    width:40px;
+
+    height:40px;
+
+    border-radius:50%;
+
+    background:#EAF7F7;
+
+    display:flex;
+
+    align-items:center;
+
+    justify-content:center;
+
+    font-size:28px;
+}
+
+.choose-section{
+    margin-top: 100px;
+
+}
+
+.choose-section h2{
+    text-align: center;
+    margin-bottom: 50px;
+    color:rgb(5, 88, 61);
+    font-size: 25px;
+}
+
+.choose-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    
+}
+
+.choose-cards{
+    width:320px;
+    padding: 40px 30px;
+    border:none;
+    border-radius: 15px;
+    transition: 0.3s;
+    cursor: pointer;
+    background: white;
+    box-shadow:
+    0 8px 25px
+    rgba(13,92,115,0.08);
+
+}
+.choose-cards:hover{
+    background: linear-gradient(135deg,#2EB8B0,#0D5C73);;
+    color:white;
+    transform: translateY(-10px);
+}
+.choose-cards h3{
+    margin-bottom: 20px;
+}
+
+.choose-cards p{
+    line-height: 28px;
+    color:#4A5568;
+    transition-duration:0.3s;
+
+}
+.choose-cards:hover p{
+    color: white ;
+
+}

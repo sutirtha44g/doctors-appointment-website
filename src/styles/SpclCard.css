@@ -1,0 +1,30 @@
+.spcl{
+    text-decoration: none;
+}
+.speciality-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:15px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.speciality-card img{
+    width: 90px;
+    height:90px;
+    border-radius: 50%;
+
+}
+
+.speciality-card p{
+    font-size: 16px;
+    font-weight: 500;
+    
+}
+
+
+
+.speciality-card:hover{
+    transform: translateY(-10px);
+}

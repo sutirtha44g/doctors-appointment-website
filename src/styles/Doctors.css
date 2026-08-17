@@ -1,0 +1,52 @@
+.doctors{
+    padding: 60px 8%;
+
+}
+.doctors h1{
+    margin-bottom: 40px;
+    color:#0D5C73;
+    font-weight: 700;
+}
+
+.doctors-container{
+    display: flex;
+    gap:40px;
+}
+.sidebar{
+    width:300px;
+    text-align: center;
+}
+
+
+.sidebar p{
+    background:white;
+    border:none;
+    padding: 10px;
+    border-radius: 18px;
+    box-shadow:    0 4px 15px rgba(0,0,0,0.08);
+    cursor: pointer;
+    transition: all 0.2s ease;
+    gap:100px;
+    margin-bottom: 10px; 
+    color:#24506A;
+    font-weight:600;
+
+}
+
+.sidebar p.active{
+    background:    linear-gradient(    135deg,    #2EB8B0,    #0D5C73    );
+
+    color:white;
+}
+
+.sidebar p:hover{
+  background-color: #2EB8B0;
+  border-color: #26A69A;
+  color:white;
+}
+
+.doctors-grid{
+    flex:1;
+    display: flex;
+    gap:30px;
+}
